@@ -1,46 +1,74 @@
-# Getting Started with Create React App
+<h1 align="center">
+  <br>
+    <img src=".github/logo.png" alt="Pokémon Card" width="200">
+  <br>
+  Pokémon Card
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">By: <a href="http://github.com/emanuelv15">Emanuel Vitor Souza</a></p>
 
-## Available Scripts
+<p align="center">
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License MIT">
+  </a>
+</p>
 
-In the project directory, you can run:
+## 📜 Features
 
-### `yarn start`
+<ul>
+  <li><p>Application that allows you to search pokémons by their names or numbers, the pokémon found will be shown on a card containing your photo, name, base xp, height and weight.</p></li>
+</ul>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<div align="center">
+  <img src=".github/home.png" alt="Page Home" height="425">
+</div>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🧰 Techs
 
-### `yarn test`
+[//]: # "Add the features of your project here:"
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🔷 **ReactJS;**
+🔷 **Babel;**
+🔷 **Webpack;**
+🔷 **Axios;**
+🔷 **Polished;**
+🔷 **Styled Components;**
+🔷 **Toastify;**
+🔷 **Typescript.**
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 💻 Getting started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+# Clone this repository
+$ git clone https://github.com/emanuelv15/pokemon-card.git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Enter the folder
+$ cd pokemon-card
 
-### `yarn eject`
+# Install the dependencies
+$ yarn
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# To start the project
+$ yarn start
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# The app will start up in <http://localhost:3000>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 🤓 How to contribute
 
-## Learn More
+<ul>
+  <li>Fork this repository;</li>
+  <li>Create a branch with your feature: <code>git checkout -b my-feature</code>;</li>
+  <li>Commit your changes: <code>git commit -m 'feat: My new feature'</code>;</li>
+  <li>Push to your branch: <code>git push origin my-feature</code>.</li>
+</ul>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<p>After the merge of your pull request is done, you can delete your branch.</p>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## ✍️ License
+
+This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/licenses/MIT) page for details.
+
+<a href="http://github.com/emanuelv15">Emanuel Vitor Souza</a>
