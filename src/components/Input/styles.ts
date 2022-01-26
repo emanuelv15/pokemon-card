@@ -57,7 +57,7 @@ export const ContainerResults = styled.main`
     display: none;
   }
 
-  a {
+  div {
     width: 100%;
     height: 50px;
     display: flex;

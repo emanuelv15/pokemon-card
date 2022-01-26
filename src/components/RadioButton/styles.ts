@@ -27,7 +27,7 @@ export const Container = styled.main`
           -webkit-appearance: none;
           width: 12px;
           height: 12px;
-          border: 1px solid darkgray;
+          border: 1px solid lightsalmon;
           border-radius: 50%;
           outline: none;
           box-shadow: 0 0 1px 0px red inset;
@@ -40,6 +40,7 @@ export const Container = styled.main`
 
           &:disabled {
             box-shadow: 0 0 0px 0px red inset;
+            border: 1px solid darkgray;
           }
 
           &:checked {

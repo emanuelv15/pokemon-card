@@ -20,7 +20,6 @@ const RadioButton = ({ itens, onChangeRadio }: RadioButtonProps) => {
       >
         {itens.map((iten) => (
           <div>
-            {/*  eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <div data-tip data-for={iten.value}>
               <input
                 type="radio"

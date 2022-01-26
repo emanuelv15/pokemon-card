@@ -1,33 +1,9 @@
-/* eslint-disable react/jsx-no-target-blank */
-// import { Container } from "./styles";
-
-// interface InputProps {
-//   placeholder: string;
-//   value: string;
-//   onChange: (event: string) => void;
-// }
-
-// const Input = ({ placeholder, value, onChange }: InputProps) => {
-//   return (
-//     <Container>
-//       <input
-//         placeholder={placeholder}
-//         value={value}
-//         onChange={(event) => onChange(event.target.value.toLowerCase())}
-//       />
-//     </Container>
-//   );
-// };
-
-// export default Input;
-
-import React, { useState } from "react";
+import { useState } from "react";
 
 import { Container, ContainerInput, Icon, ContainerResults } from "./styles";
 
 import { ListPokemons } from "../../utils/types";
 
-import "./sc.css";
 import { SearchOutlined, CloseOutlined } from "@ant-design/icons";
 
 interface InputProps {
@@ -36,7 +12,7 @@ interface InputProps {
   onClickInput: (event: string) => void;
 }
 
-function Input({ placeholder, data, onClickInput }: InputProps) {
+const Input = ({ placeholder, data, onClickInput }: InputProps) => {
   const [filteredData, setFilteredData] = useState<ListPokemons[]>(
     [] as ListPokemons[]
   );
@@ -89,20 +65,15 @@ function Input({ placeholder, data, onClickInput }: InputProps) {
         <ContainerResults>
           {filteredData.slice(0, 4).map((value) => {
             return (
-              // eslint-disable-next-line jsx-a11y/anchor-is-valid
-              <a
-                className="dataItem"
-                target="_blank"
-                onClick={() => handleClickPokemonName(value.name)}
-              >
+              <div onClick={() => handleClickPokemonName(value.name)}>
                 <p>{value.name} </p>
-              </a>
+              </div>
             );
           })}
         </ContainerResults>
       )}
     </Container>
   );
-}
+};
 
 export default Input;
