@@ -1,11 +1,12 @@
-import { createGlobalStyle } from 'styled-components';
-import 'react-toastify/dist/ReactToastify.css';
+import { createGlobalStyle } from "styled-components";
+import "react-toastify/dist/ReactToastify.css";
 
 export default createGlobalStyle`
 
   body {
     background: #8B0000;
     -webkit-font-smoothing: antialiased;
+    overflow: hidden;
   }
 
   body, input, button {
@@ -13,7 +14,6 @@ export default createGlobalStyle`
   }
 
   #root {
-    max-width: 1020px;
     margin: 0 auto;
   }
 

@@ -1,54 +1,53 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
-export const Container = styled.main`
-`;
+export const Container = styled.main``;
 
 export const Content = styled.div`
-    max-width: 1120px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  max-width: 1120px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
-    img {
-      width: 100px;
-      height: 50px;
+  img {
+    width: 100px;
+    height: 50px;
+  }
+
+  input {
+    width: 15rem;
+    padding: 0 1.5rem;
+
+    border-radius: 0.25rem;
+    border: 0;
+    background: #ffffff;
+
+    height: 3rem;
+
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-align: center;
+    &::placeholder {
+      font-size: 1rem;
     }
+  }
 
-    input {
-      width: 15rem;
-      padding: 0 1.5rem;
+  button {
+    font-size: 1rem;
+    color: #ffffff;
+    background: var(--blue-light);
+    border: 0;
+    padding: 0 2rem;
+    border-radius: 0.25rem;
+    height: 3rem;
 
-      border-radius: 0.25rem;
-      border: 0;
-      background: #FFFFFF;
+    transition: filter 0.2s;
 
-      height: 3rem;
-          
-      font-weight: 400;
-      font-size: 1.5rem;
-      text-align: center;
-      &::placeholder {
-        font-size: 1rem;
-      }
+    &:hover {
+      filter: brightness(0.9);
     }
-
-    button {
-        font-size: 1rem;
-        color: #FFFFFF;
-        background: var(--blue-light);
-        border: 0;
-        padding: 0 2rem;
-        border-radius: 0.25rem;
-        height: 3rem;
-
-        transition: filter 0.2s;
-
-        &:hover {
-            filter: brightness(0.9);
-        }
-    }
-`
+  }
+`;
 
 export const ContainerCard = styled.div`
   display: -webkit-box;
@@ -71,21 +70,21 @@ export const Card = styled.article`
   -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 
-  transition: all .5s;
+  transition: all 0.5s;
 
-  &:hover {
+  /* &:hover {
     -webkit-filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
     filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
     -webkit-transform: rotateZ(-360deg) scale(1.2);
     transform: rotateZ(360deg) scale(1.2);
-  }
-`
+  } */
+`;
 
-export const Header = styled.img`
+export const HeaderCard = styled.img`
   width: 100%;
   height: 150px;
   display: block;
-`
+`;
 
 export const CardBody = styled.div`
   display: -webkit-box;
@@ -103,7 +102,7 @@ export const CardBody = styled.div`
   img {
     width: 180px;
     height: 180px;
-    border: 0.15rem solid #8B0000;
+    border: 0.15rem solid #8b0000;
     border-radius: 50%;
     margin-top: -90px;
     margin-bottom: 1rem;
@@ -122,7 +121,7 @@ export const CardBody = styled.div`
     margin-top: 0.15rem;
     margin-bottom: 0.5rem;
   }
-`
+`;
 
 export const CardFooter = styled.div`
   display: -webkit-box;
@@ -140,4 +139,4 @@ export const CardFooter = styled.div`
       letter-spacing: 1px;
     }
   }
-`
+`;

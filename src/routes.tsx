@@ -1,8 +1,8 @@
-import { Switch, Route } from 'react-router-dom';
+import { Switch, Route } from "react-router-dom";
 
-import Home from './pages/Home';
+import Home from "./pages/Home";
 
-const Routes = (): JSX.Element => {
+const Routes = () => {
   return (
     <Switch>
       <Route path="/" exact component={Home} />
