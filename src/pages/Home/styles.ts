@@ -2,53 +2,6 @@ import styled from "styled-components";
 
 export const Container = styled.main``;
 
-export const Content = styled.div`
-  max-width: 1120px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-  img {
-    width: 100px;
-    height: 50px;
-  }
-
-  input {
-    width: 15rem;
-    padding: 0 1.5rem;
-
-    border-radius: 0.25rem;
-    border: 0;
-    background: #ffffff;
-
-    height: 3rem;
-
-    font-weight: 400;
-    font-size: 1.5rem;
-    text-align: center;
-    &::placeholder {
-      font-size: 1rem;
-    }
-  }
-
-  button {
-    font-size: 1rem;
-    color: #ffffff;
-    background: var(--blue-light);
-    border: 0;
-    padding: 0 2rem;
-    border-radius: 0.25rem;
-    height: 3rem;
-
-    transition: filter 0.2s;
-
-    &:hover {
-      filter: brightness(0.9);
-    }
-  }
-`;
-
 export const ContainerCard = styled.div`
   display: -webkit-box;
   display: -ms-flexbox;
