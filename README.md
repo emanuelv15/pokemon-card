@@ -4,7 +4,7 @@
   <br>
   Pokémon Card
 </h1>
-<p align="center">Link: <a href="https://emanuelv15-quiz-app.vercel.app/">Pokémon Card</a></p>
+<p align="center">Link: <a href="https://emanuelv15-pokemon-card.vercel.app/">Pokémon Card</a></p>
 
 <p align="center">By: <a href="http://github.com/emanuelv15">Emanuel Vitor Souza</a></p>
 
